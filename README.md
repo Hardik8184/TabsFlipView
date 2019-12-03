@@ -1,8 +1,8 @@
 # FlipTabs
 
-<p align="center"><img src="FlipTabs.gif"/></p>
-
 FlipTabs is a lightweight library that contains a 2-tab view that switches using flip animation. ([Source of Inspiration](https://dribbble.com/shots/7419072-Segmented-Control))
+
+<p align="center"><img src="FlipTabs.gif"/></p>
 
 ### Demo app
 To run the demo project, clone the repository and run it via Android Studio.
