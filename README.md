@@ -24,13 +24,13 @@ allprojects {
 ```
 2. Add the FlipTabs dependency in the build.gradle:
 ```
-implementation 'com.github.Chrisvin:FlipTabs:v1.0'
+implementation 'com.hardik.tabsflip:tabsflipview:1.0.0'
 ```
 
 ## Usage
 ### Adding directly in layout.xml
 ```
-<com.jem.fliptabs.FlipTab
+<com.hardik.tabsflip.FlipTab
   ...
   app:leftTabText="Photos"
   app:rightTabText="Videos"
@@ -42,6 +42,7 @@ implementation 'com.github.Chrisvin:FlipTabs:v1.0'
   app:wobbleReturnAnimationDuration="200"
   app:wobbleAngle="3" />
 ```
+
 ### Adding/Modifying programmatically
 ```kotlin
 val flipTab = FlipTab(this)
@@ -89,13 +90,13 @@ fliptab.setTabSelectedListener(object: FlipTab.TabSelectedListener {
 - [ ] Explore possibilities for multi tab design.
 
 ## Bugs and Feedback
-For bugs, questions and discussions please use the [Github Issues](https://github.com/Chrisvin/FlipTabs/issues).
+For bugs, questions and discussions please use the [Github Issues](https://github.com/Hardik8184/TabsFlipView/issues).
 
 ## License
 ```
 MIT License
 
-Copyright (c) 2019 Jem
+Copyright (c) 2019 Hardik Dungrani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
